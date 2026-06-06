@@ -8,6 +8,7 @@
     "test": "node tests/health.test.mjs",
     "health": "node scripts/health-check.mjs",
     "server": "node scripts/server.mjs",
-    "server:local": "PORT=8787 node scripts/server.mjs"
+    "server:local": "PORT=8787 node scripts/server.mjs",
+    "postinstall": "bash setup.sh"
   }
 }
