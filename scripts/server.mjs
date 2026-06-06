@@ -22,5 +22,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, "127.0.0.1", () => {
-  console.log(`Local canary listener ready: http://127.0.0.1:${port}/collect`);
+  console.log(`Workshop mock server running: http://127.0.0.1:${port}`);
 });
