@@ -1,0 +1,14 @@
+{
+  "name": "gemini-cli-vrp-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Harmless local harness for testing Gemini CLI trust boundaries.",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/health.test.mjs",
+    "health": "node scripts/health-check.mjs",
+    "listener": "node scripts/listener.mjs",
+    "canary:external": "node scripts/send-canary-local.mjs",
+    "canary:local": "CANARY_ENDPOINT=http://127.0.0.1:8787/collect node scripts/send-canary-local.mjs"
+  }
+}
